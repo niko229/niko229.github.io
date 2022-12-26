@@ -1,71 +1,49 @@
 html, body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: white;
+    height: 100%;
 }
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-.header {
-    display: flex;
-    height: 100px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    background-color: blueviolet;
-    position: sticky;
-    top: 0;
-    color: white;
-    text-shadow: 5px 5px 5px red;
-}
-
-.footer {
-    display: flex;
-    height: 40px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    background-color: blueviolet;
-    position: sticky;
-    bottom: 0;
-    color: white;
 }
 
 .container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 10px;
-    background-color: white;
-    color: blue;
 }
 
 .item {
-    background-color: lime;
-    flex: 1 0 300px;
-    padding: 20px;
-}
-
-.img {
-    height: 200px;
-    border-radius: 10px;
+    flex: 50%;
+    height: 400px;
     background-size: cover;
+    background-position: center;
+    margin: 2px;
 }
 
-.img1 {
-    background-image: url(realmadrid.jpg);
+.item1 {
+    background-image: url(img/ronaldo.jpg);
 }
 
-.img2 {
-    background-image: url(neymar.jpg);
+.item2 {
+    background-image: url(img/zlatan.jpg);
 }
 
-.img3 {
-    background-image: url(ronaldo.jpg);
+.item3 {
+    background-image: url(img/realmadrid.jpg);
 }
-.img4 {
-    background-image: url(zlatan.jpg);
+@media (max-width:650px) {
+    .container {
+        flex-direction: column;
+        height: 70%;
+    }
+
+}
+
+
+
+@media (max-width:600px) {
+    .container {
+        flex-direction: column;
+        height: 100%;
+    }
+
 }
