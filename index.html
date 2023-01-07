@@ -9,18 +9,35 @@
     <title>Document</title>
 </head>
 <body>
-    <button type="button" class="btn btn-secondary m-2" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
-      <a href="#">group</a>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">ASPA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <button type="button" class="btn btn-secondary m-2" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
-       <a href="hebib.html">hebib</a> 
-      </button>
-      <button type="button" class="btn btn-secondary m-2" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
-       <a href="ferid.html">ferid</a> 
-      </button>
-      <button type="button" class="btn btn-secondary m-2s" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
-      <a href="ramo.html">ramazan</a>  
-      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">group</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=""></a>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="ramo.html">ramazan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="hebib.html">hebib</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="ferid.html">ferid</a>
+          </li>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
       <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
