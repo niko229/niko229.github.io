@@ -1,6 +1,6 @@
 let weight = prompt('ceki yazin');
 let height = prompt('boyunuzu yazin');
-let bmi = weight / (height * height);
+let bmi = (weight / (height * height)) *10000;
 let netice ;
 
 if (bmi < 18){
