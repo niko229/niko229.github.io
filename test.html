@@ -199,7 +199,7 @@ ul{
 .plan {
   border-radius: 16px;
   box-shadow: 0 30px 30px -25px rgba(0, 38, 255, 0.205);
-  padding: 17px;
+  padding: 10px;
   background-color: #fff;
   color: #697e91;
   max-width: 300px;
@@ -320,9 +320,17 @@ ul{
    height: 100%;
 }
 
-@media(max-width: 600px){    
+@media(max-width: 700px){    
+  p {
+    display: inline-block;
+    flex-direction: row;
+  }
+}
+
+@media(max-width: 700px){    
     .plan {
         padding-left: 50px;
+        width: 400px;
     }
     .bas {
     display: inline-block;
@@ -330,59 +338,12 @@ ul{
     flex-wrap: wrap;
 }
 }
-
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-.search {
-  width: 100%;
-  position: relative;
-  display: flex;
-}
-
-.searchTerm {
-  width: 100%;
-  border: 3px solid #00B4CC;
-  border-right: none;
-  padding: 5px;
-  height: 20px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: #9DBFAF;
-}
-
-.searchTerm:focus{
-  color: #00B4CC;
-}
-
-.searchButton {
-  width: 40px;
-  height: 36px;
-  border: 1px solid #00B4CC;
-  background: #00B4CC;
-  text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-
-.wrap{
-  width: 30%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-    </style>
+  </style>
 </head>
 <body>
     <nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand"><span>akumluyatr</span><img src="dn4-removebg-preview.png" alt="" width="50px"></a>
-    
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-expanded="false">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -395,12 +356,29 @@ ul{
             </div>
         </div>
       </nav>
-
-
-
-      <br><br>
+      <br><br><br>
       <section id="niko">
       <div class="bas">
+        <div class="plan">
+          <div class="inner">
+              <span class="pricing">
+                  <span>
+                      50m
+                  </span>
+              </span>
+              <div class="niko2"><img src="n-removebg-preview.png" alt="" width="220px"></div>
+              <p class="info">This plan is for those who have a team already and running a large business.</p>
+              <ul class="features">
+                  <li>
+              </ul>
+              <div class="action">
+              <a class="button" href="#">
+                  almaq
+              </a>
+              </div>
+          </div>
+      </div>    
+
         <div class="plan">
     <div class="inner">
         <span class="pricing">
